@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "930669979493",
+    "firebase_url": "https://smarthapannu-cba25.firebaseio.com",
+    "project_id": "smarthapannu-cba25",
+    "storage_bucket": "smarthapannu-cba25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930669979493:android:a3844c82301ad599",
+        "android_client_info": {
+          "package_name": "com.ishananuranga.smarthapannu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930669979493-hlkt9hplb3u7m6off0jut83q1987eop8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ishananuranga.smarthapannu",
+            "certificate_hash": "68ea3bd59cdd026e34f8140ddc5441c7a38abe1f"
+          }
+        },
+        {
+          "client_id": "930669979493-jof5i5ti9loqn6nu0ekp5ifvvg6mrg92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaM06p9W19Ojn1jkBp9D0BkxHYMQzfnWA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930669979493-jof5i5ti9loqn6nu0ekp5ifvvg6mrg92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

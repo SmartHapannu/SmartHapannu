@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Smart Hapannu</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_progress">Progress</string>
+    <string name="title_account">Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="question_test_hardcode"><![CDATA[fuu rEm j,ska olajd we;s øjH\" ldKav follg fjka l< yelsh\' tu ldKav ksjerÈj olajd we;s ms<s;=r f;darkak\']]></string>
+    <string name="leisure_mode_desc"><![CDATA[ld, iSud fkdue;sj m%Yak m;%hg ms<s;=re imhkak]]></string>
+    <string name="exam_mode_desc"><![CDATA[kshñ; ld,hg wkql+,j m%YaK m;%hg ms<s;=re imhkak\']]></string>
+    <string name="result_correct"><![CDATA[ksjerÈ ms<s;=re]]></string>
+    <string name="result_incorrect"><![CDATA[jerÈ ms<s;=re]]></string>
+    <string name="result_unanswerd"><![CDATA[ms<s;=re imhd fkdue;s]]></string>
+    <string name="result_all_count">iïmQ¾K m%YaK m%udKh</string>
+
+
+    <string name="lesson_number">mdvï wxlh</string>
+    <string name="lesson_name">mdvfï ku</string>
+    <string name="question_count">m%YaK .Kk</string>
+    <string name="correct_count"><![CDATA[ksjerÈ ms<s;=re]]></string>
+    <string name="incorrect_count"><![CDATA[jerÈ ms<s;=re]]></string>
+    <string name="not_answered_count"><![CDATA[ms<s;=re imhd ke;s]]> </string>
+    <string name="percentage">m%;sY;h</string>
+    <string name="temp_result_all_questions"><![CDATA[ms<s;=re imhd fkdue;s       10]]></string>
+    <string name="temp_result_incorrect_answers">jerÈ m%YaK .Kk          5</string>
+    <string name="temp_result_correct_answers">ksjerÈ m%YaK .Kk       25</string>
+    <string name="temp_results_all_questions">uq¿ m%YaK .Kk           40</string>
+</resources>

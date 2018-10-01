@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="12dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="20dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="6dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="0dp">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="18dp">
+
+                <TextView
+                    android:id="@+id/text_view_question_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/bindu"
+                    android:text="1'"
+                    android:textColor="@color/primary_text"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/text_view_question"
+                    android:layout_width="313dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="70"
+                    android:fontFamily="@font/bindu"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp"
+                    android:paddingTop="6dp"
+                    android:text="@string/question_test_hardcode"
+                    android:textColor="@color/primary_text"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.804"
+                    app:layout_constraintStart_toEndOf="@+id/text_view_question_number"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/image_view_quetion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_question"
+                    app:srcCompat="@drawable/q1_im" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_answer1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/image_view_quetion" />
+
+                <TextView
+                    android:id="@+id/text_view_answer1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/iskoola_pota"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="32dp"
+                    android:text="TextView"
+                    android:textColor="@color/primary_text"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/radio_button_answer1"
+                    app:layout_constraintTop_toBottomOf="@+id/image_view_quetion" />
+
+                <ImageView
+                    android:id="@+id/image_view_answer1"
+                    android:layout_width="308dp"
+                    android:layout_height="80dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:foregroundGravity="left"
+                    android:scaleType="fitStart"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_answer1"
+                    app:srcCompat="@drawable/q3_a1_im" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_answer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/image_view_answer1" />
+
+                <TextView
+                    android:id="@+id/text_view_answer2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/iskoola_pota"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="TextView"
+                    android:textColor="@color/primary_text"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/radio_button_answer2"
+                    app:layout_constraintTop_toBottomOf="@+id/image_view_answer1" />
+
+                <ImageView
+                    android:id="@+id/image_view_answer2"
+                    android:layout_width="308dp"
+                    android:layout_height="80dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitStart"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_answer2"
+                    app:srcCompat="@drawable/q3_a3_im" />
+
+                <RadioButton
+                android:id="@+id/radio_button_answer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_view_answer2" />
+
+                <TextView
+                    android:id="@+id/text_view_answer3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/iskoola_pota"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="TextView"
+                    android:textColor="@color/primary_text"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/radio_button_answer3"
+                    app:layout_constraintTop_toBottomOf="@+id/image_view_answer2" />
+
+                <ImageView
+                    android:id="@+id/image_view_answer3"
+                    android:layout_width="308dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitStart"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_answer3"
+                    app:layout_constraintVertical_bias="0.032"
+                    app:srcCompat="@drawable/q3_a2_im" />
+
+
+                <RadioButton
+                    android:id="@+id/radio_button_answer4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/image_view_answer3" />
+
+                <TextView
+                    android:id="@+id/text_view_answer4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/iskoola_pota"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="TextView"
+                    android:textColor="@color/primary_text"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/radio_button_answer4"
+                    app:layout_constraintTop_toBottomOf="@+id/image_view_answer3" />
+
+                <ImageView
+                    android:id="@+id/image_view_answer4"
+                    android:layout_width="308dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitStart"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_answer4"
+                    app:layout_constraintVertical_bias="0.032"
+                    app:srcCompat="@drawable/q3_a2_im" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_answer5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/image_view_answer4" />
+
+                <TextView
+                    android:id="@+id/text_view_answer5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/iskoola_pota"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="TextView"
+                    android:textColor="@color/primary_text"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/radio_button_answer5"
+                    app:layout_constraintTop_toBottomOf="@+id/image_view_answer4" />
+
+                <ImageView
+                    android:id="@+id/image_view_answer5"
+                    android:layout_width="308dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitStart"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_answer5"
+                    app:layout_constraintVertical_bias="0.032"
+                    app:srcCompat="@drawable/q3_a2_im" />
+
+
+                <RadioButton
+                    android:id="@+id/radio_button_answer6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/image_view_answer5" />
+
+                <TextView
+                    android:id="@+id/text_view_answer6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/iskoola_pota"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:text="TextView"
+                    android:textColor="@color/primary_text"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/radio_button_answer6"
+                    app:layout_constraintTop_toBottomOf="@+id/image_view_answer5" />
+
+                <ImageView
+                    android:id="@+id/image_view_answer6"
+                    android:layout_width="308dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitStart"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_answer6"
+                    app:layout_constraintVertical_bias="0.032"
+                    app:srcCompat="@drawable/q3_a2_im" />
+
+
+                <TextView
+                    android:id="@+id/text_view_paper_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:visibility="gone" />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

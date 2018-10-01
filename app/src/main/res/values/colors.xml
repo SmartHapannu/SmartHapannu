@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="primary">#4caf50</color>
+    <color name="btn_bg">#388e3c</color>
+    <color name="primary_dark">#8ba642</color>
+    <color name="primary_light">#c8e6c9</color>
+    <color name="accent">#448aff</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#ffffff</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="gradient_light">#b9dc58</color>
+    <color name="gradient_dark">#6ab04c</color>
+    <color name="login_panel_bg">#d2e4b1</color>
+
+    <color name="paper_bg">#ecf0f1</color>
+    <color name="exam_mode_timer_color">#c0392b</color>
+
+</resources>

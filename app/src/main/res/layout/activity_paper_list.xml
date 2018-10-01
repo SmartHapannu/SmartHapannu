@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/primary_gradient_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".PaperListActivity">
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/samantha"
+        android:text="wkqudk m%YaK m;%"
+        android:textColor="@color/primary_text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by Smart Hapannu Team"
+        android:textColor="@color/secondary_text" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/paper_list_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layoutAnimation="@anim/layout_animation_fall_down" />
+
+</LinearLayout>
